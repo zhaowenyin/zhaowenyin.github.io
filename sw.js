@@ -22,7 +22,7 @@ self.addEventListener('fetch', (event) => {
     try {
       const response = await caches.match(event.request)
       if (response) {
-        return response
+        return response 
       }
 
       let networkResponse = await fetch(event.request)
@@ -35,6 +35,6 @@ self.addEventListener('fetch', (event) => {
       console.log(error)
       // return caches.match('/star.jpg')
     }
-
+    
   })())
 })
