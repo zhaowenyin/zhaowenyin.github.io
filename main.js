@@ -1,5 +1,5 @@
 document.querySelectorAll('.div')[0].addEventListener('click', ()=>{
-    alert(111)
+    alert(888)
 }, false)
 
 var request = new XMLHttpRequest(); // 新建XMLHttpRequest对象
