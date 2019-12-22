@@ -2,8 +2,7 @@ const VERSION = 'v888'
 let cacheWhitelist = [VERSION];
 
 self.addEventListener('install', function (event) {
-  console.log(new Date())
-  // self.skipWaiting() // 强行插队
+  self.skipWaiting() // 强行插队
 })
 
 self.addEventListener('activate', (event) => {
