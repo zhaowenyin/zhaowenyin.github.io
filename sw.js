@@ -1,4 +1,4 @@
-const VERSION = 'v1'
+const VERSION = 'v2'
 let cacheWhitelist = [VERSION];
 
 self.addEventListener('install', function (event) {
